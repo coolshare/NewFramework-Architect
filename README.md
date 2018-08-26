@@ -22,11 +22,9 @@ Currently, as a result, a framework has been established and several application
   <li>there could be a mobile interface: React codes are ready to be shared by React Native</li>
 </ul>
 
-I started this project using React backed by Redux but I eventually completely remove Redux from my application and used my own architecture.
-The result in the architecture aspect is that 
-There are several reasons for not using Redux
-
-<b>B. Problem:</b><br/>
-
-<b>C. Solution:</b><br/>
+<b>C. Details on Design and Implementation:</b><br/>
+<ul>
+  <li>1. Problem:</li>
+  <li>2. Solution:</li>
+</ul>
 

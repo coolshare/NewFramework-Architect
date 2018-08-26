@@ -9,7 +9,8 @@ About a years ago, I started an UI of SDN (Software-defined networking) project 
   <li>highly componentized: there is a protential to eventually deliver a platform where third-party coders can share the components used by company's primary UI</li>
   <li>rapidly changable: in many cases, PM want to sit with UI to apply design (modification or creation on the fly while discussing.</li>
   <li>model driven: server side will generate/deliver (even runtime) a list of "models" and UI should be able to  render them</li>
-  <li>there could be a mobile interface</li>
+  <li>other "regular" requirments: highly dynamically (heavily streaming), highly graphicall (a variety of charts and operatable diagrams) and so on
+
 </ul>
 <b>B. Result:</b><br/> 
 Currently, as a result, a framework has been established and several applications are built on the framework. The framework provides the following:<br/>
@@ -19,7 +20,7 @@ Currently, as a result, a framework has been established and several application
   As you can see in the diagram above, no object reference to others: for example, an UI component has no idea about whom its request (publish) is served by and a service also has no idea about where the request is coming and where the response from server is return to: "objects" in the container is hightly isolated!
   <li>rapidly changable: we only need about 5 minutes to put together a regular form or table and it takes only seconds to add/remove/modify a field since we only need to edit the UI schema and the rest will be taken care by the framework. You will see how in the <a href="https://github.com/coolshare/NewFramework-SchemaDriven" target="_blank">"Schema Driven"</a> section</li>
   <li>model driven: the framework can render any "regular" models out of model definition delivered by server. The rest of screens need some special "UI muscle". The percentage depends on application.</li>
-  <li>there could be a mobile interface: React codes are ready to be shared by React Native</li>
+  <li>other "regular" requirments: see solution in details below</li>
 </ul>
 
 <b>C. Details on Design and Implementation:</b><br/>

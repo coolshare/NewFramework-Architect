@@ -14,7 +14,7 @@ About a years ago, I started an UI of SDN (Software-defined networking) project 
 <b>B. Result:</b><br/> 
 Currently, as a result, a framework has been established and several applications are built on the framework. The framework provides the following:<br/>
 <ul>
-  <li>highly componentized: any application built on the framework, as a container, contains two types of highly decoupled "objects": UI component and services. Pub/sub is used for communication:</li>
+  <li>highly componentized: any application, as a container, built on the framework contains two types of highly decoupled "objects": UI component and services. Pub/sub is used for communication:</li>
   <img src="https://github.com/coolshare/NewFramework-Architect/blob/master/workflow3.png"/>
   As you can see, no object reference to others: for example, an UI component has no idea about whom its request (publish) is served by and a service also has no idea about where the request is coming and where the response from server is return to: "objects" in the container is hightly isolated!
   <li>rapidly changable: in many cases, PM want to sit with UI to apply design (modification or creation on the fly while discussing.</li>

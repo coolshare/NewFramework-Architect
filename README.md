@@ -18,7 +18,7 @@ Currently, as a result, a framework has been established and several application
   <img src="https://github.com/coolshare/NewFramework-Architect/blob/master/workflow3.png"/>
   As you can see in the diagram above, no object reference to others: for example, an UI component has no idea about whom its request (publish) is served by and a service also has no idea about where the request is coming and where the response from server is return to: "objects" in the container is hightly isolated!
   <li>rapidly changable: we only need about 5 minutes to put together a regular form or table and it takes only seconds to add/remove/modify a field since we only need to edit the UI schema and the rest will be taken care by the framework. You will see how in the <a href="https://github.com/coolshare/NewFramework-SchemaDriven" target="_blank">"Schema Driven"</a> section</li>
-  <li>model driven: the framework can render any "regular" models out of model definition delivered by serverthe rest of screens need some special "UI muscle" </li>
+  <li>model driven: the framework can render any "regular" models out of model definition delivered by server. The rest of screens need some special "UI muscle". The percentage depends on application.</li>
   <li>there could be a mobile interface: React codes are ready to be shared by React Native</li>
 </ul>
 

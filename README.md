@@ -15,7 +15,7 @@ About a years ago, I started an UI of SDN (Software-defined networking) project 
 Currently, as a result, a framework has been established and several applications are built on the framework. The framework provides the following:<br/>
 <ul>
   <li>highly componentized: any application built on the framework, as a container, contains two types of highly decoupled "objects" and pub/sub is used for communication:</li>
-  ![Indepent Componentize workflow](./workflow3.png?raw=true "Independent Componentize Workflow Picture")
+  ![NewFramework-Architect](./workflow3.png?raw=true "NewFramework Architect")
   <li>rapidly changable: in many cases, PM want to sit with UI to apply design (modification or creation on the fly while discussing.</li>
   <li>model driven: server side will generate/deliver (even runtime) a list of "models" and UI should be able to  render them</li>
   <li>there could be a mobile interface</li>

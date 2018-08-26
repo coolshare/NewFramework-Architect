@@ -3,7 +3,7 @@ New Framework: Architecture
 
 By Mark Qian 8/2018 (markqian@hotmail.com)
 
-<b>A. Introduction:</b><br/>  
+<b>A. Introduction:</b>
 About a years ago, I started an UI of SDN (Software-defined networking) project from scrach. The requirements including the following:<br/>
 <ul>
   <li>highly componentized: there is a protential to eventually deliver a platform where third-party coders can share the components used by company's primary UI</li>
